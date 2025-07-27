@@ -5,17 +5,6 @@ Vou utilizar para aprendizado, organização e prática.
 
 ---
 
-## Organização do Repositório
-
-Estudos-Dados
-│
-├── python/ → Fundamentos + exercícios + mini projetos
-├── powerbi/ → Dashboards, arquivos .pbix e anotações de DAX
-├── aws/ → Conceitos de cloud + projetos com Glue, Athena, S3
-└── README.md → Este arquivo, com minha jornada e progresso 
-
----
-
 ## Objetivos
 
 ✅ Reforçar os fundamentos de programação com **Python para dados**  
