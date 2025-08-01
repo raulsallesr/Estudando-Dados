@@ -1,7 +1,7 @@
 ## // é para dividir e nao virar float
 # % é para ver quanto sobra da divisão
 # Vamos usar () para definir oq vai ser realizado primeiro
-
+# len() traz a qtd
 
 usando_divisao = 10/3
 usando_duasbarrar = 10//3
