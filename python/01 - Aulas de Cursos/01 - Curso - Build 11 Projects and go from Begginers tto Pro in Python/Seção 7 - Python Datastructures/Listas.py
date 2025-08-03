@@ -11,3 +11,8 @@ print(mais_de_uma[0][2]) # Dentro da lista 0, index 3
 
 print(mais_de_uma[0][1:]) # 1: ai vou excluir o 1
 print(mais_de_uma[0][:1]) # :1 aí vou pegar só até o 1
+
+# Para adicionar algo na lista: .append() ou .insert()
+# lista.insert(index, valor)
+minha_lista.insert(0,"oi")
+print(minha_lista)
