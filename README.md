@@ -1,11 +1,10 @@
+Olá, esse é meu repositório
+
 # Guia de Navegação do Repositório
 
 Este repositório está organizado por áreas de estudo para facilitar a navegação e acompanhamento da minha transição para a área de Dados. Abaixo está a estrutura principal:
 
 ##  Python
-- `fundamentos/`: Sintaxe básica, estruturas, funções.
-- `pandas_numpy/`: Manipulação de dados com Pandas e NumPy.
-- `visualizacao/`: Gráficos com Matplotlib, Seaborn, Plotly.
 - `projetos/`: Mini projetos de análise de dados.
 - `desafios/`: Exercícios e desafios práticos.
 
