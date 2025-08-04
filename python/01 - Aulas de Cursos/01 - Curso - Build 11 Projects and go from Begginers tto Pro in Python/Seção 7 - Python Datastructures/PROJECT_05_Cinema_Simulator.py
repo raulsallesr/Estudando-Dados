@@ -21,10 +21,17 @@ while True:
                 print("Curta o filme")
                 cinema[escolha_filme][1] = cinema[escolha_filme][1] -1
 
-            print("vc pode ver")        
+            else:
+                print("Desculpe, estamos cheios!")
         else:
             print("Você é muito novo para esse filme...")
     else: 
         print("Não temos esse filme!")
+        
+    print(f"Lista de filmes disponíveis: {cinema}")
 
+    continuar = input("\nDeseja escolher outro filme? (y/n): ").strip().lower()
+    if continuar != "y":
+        print("Até mais")
+        break
 
