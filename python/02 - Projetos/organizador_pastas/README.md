@@ -30,3 +30,4 @@ organizador_arquivos/
 │ └── arquivos_teste/ # Pasta usada nos testes
 └── README.md
 
+---
