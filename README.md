@@ -10,8 +10,6 @@ Este repositório está organizado por áreas de estudo para facilitar a navega�
 
 ##  Power BI
 - `dashboards/`: Arquivos `.pbix` de dashboards completos.
-- `relatorios/`: PDFs, apresentações ou prints de dashboards.
-- `anotacoes/`: Anotações sobre DAX, melhores práticas.
 - `dados/`: Dados brutos utilizados nos projetos.
 
 ##  AWS
