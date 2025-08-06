@@ -30,11 +30,9 @@ estudantes = {
 # print(key) # Vai retornar "Homens" e "Mulheres"
 # print(estudantes[key]) # Retorna os nomes
 
+# escrevendo solo:
 
 for key in estudantes.keys():
     for name in estudantes[key]:
         if "a" in name:
             print(name)
-
-
-# escrevendo solo:
