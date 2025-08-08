@@ -6,7 +6,7 @@ Este repositório está organizado por áreas de estudo para facilitar a navega�
 
 ##  Python
 - `projetos/`: Mini projetos de análise de dados.
-- `desafios/`: Exercícios e desafios práticos.
+- `Curso/`: Todas as minhas anotações/práticas das aulas que estou fazendo, grande maioria pela Udemy e Youtube
 
 ##  Power BI
 - `dashboards/`: Arquivos `.pbix` de dashboards completos.
@@ -15,7 +15,6 @@ Este repositório está organizado por áreas de estudo para facilitar a navega�
 ##  AWS
 - `fundamentos/`: IAM, S3, EC2, redes.
 - `dados/`: Glue, Athena, Redshift — voltado à análise de dados.
-- `labs/`: Laboratórios práticos, scripts.
 - `simulados/`: Preparação para certificações, revisões.
 
 ---
