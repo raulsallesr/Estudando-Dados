@@ -11,6 +11,7 @@ def print_board(bord):
 
 def jogada(jogador):
     # Mostre uma mensagem dizendo de quem é a vez (Jogador 1 para X, Jogador 2 para O)
+    
     # Peça para o jogador digitar uma posição de 1 a 9 (validar se o valor é um número e está no intervalo correto)
     # Converta essa posição para índices linha e coluna do tabuleiro
     # Verifique se a posição escolhida está vazia (" ")
