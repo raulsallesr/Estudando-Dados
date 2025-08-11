@@ -1,4 +1,6 @@
 Olá, esse é meu repositório
+OBS. 11/08/25 vou começar a estudar JAVA, já relembrei legal o py, o excel uso no trabalho todos os diass, vou começar a ver java agora,
+medo rsrs
 
 # Guia de Navegação do Repositório
 
