@@ -14,10 +14,6 @@ Este repositório está organizado por áreas de estudo para facilitar a navega�
 - `projetos/`: Projetos.
 - `Cursos/`: Meus estudos sobre os cursos.
 
-##  Power BI
-- `dashboards/`: Arquivos `.pbix` de dashboards completos.
-- `dados/`: Dados brutos utilizados nos projetos.
-
 ##  AWS
 - `fundamentos/`: IAM, S3, EC2, redes.
 - `dados/`: Glue, Athena, Redshift — voltado à análise de dados.
