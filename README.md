@@ -1,6 +1,8 @@
 Olá, esse é meu repositório
 OBS. 11/08/25 vou começar a estudar JAVA, já relembrei legal o py, o excel uso no trabalho todos os diass, vou começar a ver java agora,
 medo rsrs
+OBS. 13/08/2025 - java e foda, vamos manter no python kkkk focando agora no curso 100 dias de python, curso bem legal com varios desafios e projetos, jajá vem coisa boa aqui,
+Estou com um projeto de data science na cabeça também envolvendo futebol, acho que vai ser legal
 
 # Guia de Navegação do Repositório
 
