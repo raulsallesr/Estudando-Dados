@@ -1,9 +1,10 @@
 Olá, esse é meu repositório
-Marcos:
+
+## Marcos Importantes:
 - 26/07/2025 Aqui vamos acompanhar meu estudo para área de Dados, espero que de certo hehe, um pouco por dia, vamos lá!!  
 - 11/08/25 vou começar a estudar JAVA, já relembrei legal o py, o excel uso no trabalho todos os diass, vou começar a ver java agora,
 medo rsrs
-- 13/08/2025 - java e foda, vamos manter no python kkkk focando agora no curso 100 dias de python, curso bem legal com varios desafios e projetos, jajá vem coisa boa aqui, - Estou com um projeto de data science na cabeça também envolvendo futebol, acho que vai ser legal
+- 13/08/2025 - java e foda, vamos manter no python kkkk focando agora no curso 100 dias de python, curso bem legal com varios desafios e projetos, jajá vem coisa boa aqui, - Estou com um projeto de data science na cabeça também envolvendo futebol, acho que vai ser legal - pensando numa pós
 
 
 
