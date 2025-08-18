@@ -1,0 +1,27 @@
+# Criar um jogo de escolher, left or right, que vamos guiando o jogador numa jornada
+
+print("Bem vindo a ilha do Palmeiras, tem um tesouro escondido por ai...")
+
+escolha1 = input("Você começou a procurar o tesouro, escolha se quer ir em direção a Caverna ou a Montanha (Caverna/Montanha): ").strip().lower()
+
+if escolha1 == "caverna":
+
+    escolha2 = input("Bela ecolha, chegando na caverna vemos que tem um buraco na parede, meio estreito, ou podemos descer ela, oq escolhe? (buraco/descer): ").strip().lower()
+    
+    if escolha2 == "descer":
+        print("Boa escolha, eu também não entraria naquele buraco kk")
+        print("Por incrivel que pareça, até que da para enxergar legal embaixo da caverna, temos um lago e parece que uma porta mais a frente")
+        escolha3 = input("Você escolhe tentar ver o lago que está meio brilhando ou seguir para porta? (lago/porta): ").strip().lower()
+        
+        if escolha3 == "lago":
+            print("Você achou o tesouro garotinho, parabéns!")
+            
+        else:
+            print("Errou kkk game over")
+    else:
+        print("Tu é muito mlk kkkkk")
+
+elif escolha1 == "montanha":
+    print("Uma cobra te mordeu kkk, ja era")
+else:
+    print("Ta perdido doidão... O sol já fez seu trabalho mesmo...")
