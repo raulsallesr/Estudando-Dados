@@ -1,0 +1,16 @@
+package curso_programacao;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Olá Mundo!");
+		System.out.print("Olá"); // Sem o ln no final, ele não pula a linha
+		System.out.println("Tudo bem?");
+		
+		int y = 3;
+		double x = 312.12;
+		System.out.println(y);
+		System.out.println(x);
+	}
+
+}
