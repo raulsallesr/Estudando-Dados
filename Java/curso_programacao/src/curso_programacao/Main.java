@@ -4,6 +4,18 @@ public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("Olá Mundo!");
+		// System.out.print("Olá"); // Sem o ln no final, ele não pula a linha
+		
+		int y = 3;
+		double x = 312.12432432;
+		System.out.println(y);
+		// System.out.println(x);
+		
+		// para formatar casa decimal = printf
+		
+		System.out.printf("%.2f%n" , x); // 2 casas decimais
+		System.out.printf("%.4f%n" , x); // 4 casas decimais
+
 	}
 
 }
