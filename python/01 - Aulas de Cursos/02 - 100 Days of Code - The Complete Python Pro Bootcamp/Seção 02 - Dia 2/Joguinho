@@ -1,0 +1,16 @@
+print("Bem vindo a calculadora de gorjeta!")
+
+conta = float(input("Qual o valor total da conta?: "))
+gorjeta = int(input("Quanto de gorjeta paizin? rsrs 10, 12 ou 15?"))
+
+gorjeta_calculada = (gorjeta/100) * conta
+
+pessoas = int(input("Vai dividir a conta em quantas pessoas?: "))
+
+conta_final = conta + gorjeta_calculada
+conta_final_por_pessoa = (conta + gorjeta_calculada) / pessoas
+
+if gorjeta not in [10,12,15]:
+    print("Por favor, selecione opções entre 10, 12 ou 15%")
+else:
+    print(f"Perfeito, a conta total ficou R${conta_final:.2f} com a gorjeta, e R${conta_final_por_pessoa:.2f} para cada pessoa")
