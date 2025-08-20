@@ -1,0 +1,19 @@
+# Usando o Reeborg's World para programar, tivemos nossa primeira aula:
+
+def direita():
+    turn_left()
+    turn_left()
+    turn_left()
+    
+
+def quadrado():
+    turn_left()
+    move()
+    direita()
+    move()
+    direita()
+    move()
+    direita()
+    move()
+      
+quadrado()    
