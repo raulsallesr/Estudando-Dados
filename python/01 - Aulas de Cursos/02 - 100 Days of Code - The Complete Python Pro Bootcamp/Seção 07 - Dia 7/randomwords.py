@@ -6,21 +6,23 @@ lista_palavras = ["PALMEIRAS", "MAX", "RELOGIO", "TV"]
 
 # 3 - checar se a letra é certa ou não
 import random
-escolher_palavra = random.choice(lista_palavras)
-tamanho_palavra = len(escolher_palavra)
-palavra_em_letras = list(escolher_palavra)
+chosen_word = random.choice(lista_palavras)
+print(chosen_word)
+size_word = len(chosen_word)
+placeholder = ""
 
-print(escolher_palavra)
+for x in range(0,size_word):
+    placeholder += "_"
+print(placeholder)
 
 
-while tamanho_palavra > 0:
-    adivinhar = input("Fala uma letra: ").upper().strip()
-    if adivinhar in palavra_em_letras:
-        print("acertou")
-    elif adivinhar not in palavra_em_letras:
-        print("Errouuu")
-        tamanho_palavra -= 1
-        if tamanho_palavra > 0:
-            print(f"Você tem mais {tamanho_palavra} vidas!")
+while display != chosen_word:
+    guess = input("Chute uma letra: ").upper()
+
+    display= ""
+    for letter in chosen_word:
+        if letter == guess:
+            display += letter
         else:
-            print("Game over")
+            display += "_"
+    print(display)
