@@ -36,15 +36,19 @@ def salvar_contatos():
         json.dump(contatos, file, indent=4) # transforma a lista/dicionários em JSON e escreve no arquivo.
         # indent=4 formata com recuo de 4 espaços (p ler melhor).
 
-
-
 def adicionar_contato():
     nome = input("Qual o Nome do Contato?: ").title()
     numero =input("Qual o Número?: ") # tirei o int
     contato = {"Nome: ": nome, "Número: ": numero}
     contatos.append(contato)
-    salvar_contatos()
+    salvar_contatos() #já salva no arquivo após a inclusão (assim não perde dados se encerrar o programa).
 
+def listar_contatos():
+    if not contatos:
+        print("Não há nenhum contato.")
+    else:
+        for x in enumerate(contatos, )
+            print(f"")
 
 
 while True:
