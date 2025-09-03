@@ -12,6 +12,17 @@ import json
 
 print("Bem vindo.")
 
+def menu():
+    print("\n=== MENU ===")
+    print("1. Adicionar Contato")
+    print("2. Listar Contatos")
+    print("3. Sair")
+    try:
+        return int(input("Digite sua opção: ")) # lê a opção do usuário e tenta converter para inteiro.
+    except ValueError:
+        return 0 # se o usuário digitar algo que não é número, a função retorna 0 (opção inválida). → p programa n quebrar.
+
+
 contatos = []
 
 # Carregar contatos salvos se existir
@@ -38,8 +49,16 @@ def salvar_contatos():
 
 def adicionar_contato():
     nome = input("Qual o Nome do Contato?: ").title()
+    if not nome.strip():
+        print("Não podemos aceitar esse nome.")
+        return contatos
+    
     numero =input("Qual o Número?: ") # tirei o int
-    contato = {"Nome: ": nome, "Número: ": numero}
+    if not numero.isdigit():
+        print("Não podemos aceitar isso.")
+        return contatos
+
+    contato = {"Nome": nome, "Número": numero}
     contatos.append(contato)
     salvar_contatos() #já salva no arquivo após a inclusão (assim não perde dados se encerrar o programa).
 
@@ -47,23 +66,20 @@ def listar_contatos():
     if not contatos:
         print("Não há nenhum contato.")
     else:
-        for x in enumerate(contatos, )
-            print(f"")
+        for x,contato in enumerate(contatos, start=1): # percorre a lista, devolvendo (índice, elemento). start=1 faz a contagem começar em 1.
+            print(f"{x}. Nome: {contato['Nome']}, Número: {contato['Número']}") # acessa os dados do dicionário.
 
+carregar_contatos()
 
 while True:
-
-    opcao_entrada_menu = int(input("Para onde você quer ir? \n1. Adicionar Contato. \n2. Lista de Contato \n3. Menu. \nDigite um número: "))
-
-    if opcao_entrada_menu == 1:
+    opcao = menu()
+    if opcao == 1:
         adicionar_contato()
-    elif opcao_entrada_menu == 2:
-        print(contatos)
-    else:
-        continue
-
-
-
-    quest = input("Quer continuar? (s/n): ")
-    if quest == "n":
+    elif opcao == 2:
+        listar_contatos()
+    elif opcao == 3:
+        print("Saindo, até mais.")
         exit()
+    else:
+        print("Inválido")
+    
