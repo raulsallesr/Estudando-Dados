@@ -16,20 +16,19 @@ def menu():
     print("\n=== MENU ===")
     print("1. Adicionar Contato")
     print("2. Listar Contatos")
-    print("3. Sair")
+    print("3. Remover Contatos")
+    print("4. Sair")
     try:
         return int(input("Digite sua opção: ")) # lê a opção do usuário e tenta converter para inteiro.
     except ValueError:
         return 0 # se o usuário digitar algo que não é número, a função retorna 0 (opção inválida). → p programa n quebrar.
 
 
-contatos = []
+contatos = []  # lista que vai armazenar todos os contatos na memória (cada ctt é um dicionário)
 
 # Carregar contatos salvos se existir
 def carregar_contatos():
-    global contatos
-    """global contatos: diz que vamos alterar a variável contatos de fora da função.
-        sem global, se você fizesse contatos = xxx criaria outra variável contatos."""
+    global contatos # diz que vamos alterar a variável contatos de fora da função. sem global, se você fizesse contatos = xxx criaria outra variável contatos.
     try: # só p tentar e nao bugar
         """
         open abre o arquivo contatos.json no modo "r" (read).
@@ -69,6 +68,30 @@ def listar_contatos():
         for x,contato in enumerate(contatos, start=1): # percorre a lista, devolvendo (índice, elemento). start=1 faz a contagem começar em 1.
             print(f"{x}. Nome: {contato['Nome']}, Número: {contato['Número']}") # acessa os dados do dicionário.
 
+
+def remover_contato():
+    if not contatos:
+        print("Não há contatos")
+        return
+    else:
+        listar_contatos()        
+        excluir = int(input("Qual contato deseja excluir?: (1-100)"))
+
+    # 3. Pedir ao usuário o número do contato que deseja remover
+    # - Usar input() e converter para int
+    # - Usar try/except para evitar erro se ele digitar letra
+
+    # 4. Verificar se o índice é válido
+    # - Ele tem que estar entre 1 e len(contatos)
+
+    # 5. Remover o contato da lista
+    # - usar pop(indice-1)
+
+    # 6. Salvar os contatos atualizados no arquivo
+
+    # 7. Mostrar mensagem de sucesso (ex: "Contato removido com sucesso!")
+
+
 carregar_contatos()
 
 while True:
@@ -78,6 +101,8 @@ while True:
     elif opcao == 2:
         listar_contatos()
     elif opcao == 3:
+        remover_contato()
+    elif opcao == 4:
         print("Saindo, até mais.")
         exit()
     else:
