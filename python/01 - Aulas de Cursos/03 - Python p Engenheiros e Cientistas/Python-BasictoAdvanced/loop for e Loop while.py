@@ -33,3 +33,16 @@ elif numero == 0:
     print("0")
 else:
     "Não é número"
+
+
+""" 3.5 Exercício 2 - 
+Faça um loop **for** para criar uma lista que intercale os valores das listas a seguir:
+- valores = [1,2,3,4,5] 
+- letras = ['a','b','c','d','e']
+
+Dica: você pode utilizar o método .append() que adiciona um elemento ao final da lista."""
+
+valores = [1,2,3,4,5] 
+letras = ['a','b','c','d','e']
+
+for x in enumerate(valores, letras)
