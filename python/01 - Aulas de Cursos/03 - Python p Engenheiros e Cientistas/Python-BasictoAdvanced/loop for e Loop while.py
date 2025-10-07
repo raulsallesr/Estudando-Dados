@@ -44,5 +44,6 @@ Dica: você pode utilizar o método .append() que adiciona um elemento ao final 
 
 valores = [1,2,3,4,5] 
 letras = ['a','b','c','d','e']
+tamanho = len(valores)+len(letras)
 
-for x in enumerate(valores, letras)
+for x in enumerate(len(valores)+len):
