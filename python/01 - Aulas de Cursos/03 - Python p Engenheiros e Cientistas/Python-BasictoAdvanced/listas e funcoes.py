@@ -13,3 +13,17 @@ string_2 = 'Copo'
 
 print(lista_2[:1])
 print(string_2[:2])
+
+def minha_funcao(Nome):
+    print(f'Meu nome é {Nome}')
+
+meu_nome = "raul"
+minha_funcao(meu_nome)
+
+def multiplica_numero_por_100(a):
+    resultado = a*100
+    return resultado
+
+n1 = 4
+
+print(multiplica_numero_por_100(n1))
